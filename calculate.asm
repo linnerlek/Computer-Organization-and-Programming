@@ -1,3 +1,10 @@
+; Program Description:
+; This program calculates the value of var4 using the formula: var4 = (var1 * var2) / (var3 * 5).
+; It demonstrates basic arithmetic operations in assembly language.
+; The program initializes four DWORD variables: var1, var2, var3, and var4.
+; It then performs the calculation specified by the formula and stores the result in var4.
+; Finally, the program exits using the ExitProcess function.
+
 .386
 .model flat,stdcall
 .stack 4096
