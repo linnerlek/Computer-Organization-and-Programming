@@ -1,3 +1,15 @@
+; Program Description:
+; This program defines a procedure for searching for a specific item in an array of DWORDs. 
+; The main procedure demonstrates the usage of this search procedure by searching for a sample item in an example array. 
+; The search procedure takes the following arguments:
+;   - EBX: The item to search for
+;   - ESI: Address of the first item in the array
+;   - ECX: Number of items in the array
+;   - EDX: Size of each item in the array
+; The search procedure returns the index of the found item (0-based index) in the EAX register. 
+; If the item is not found, it returns -1. 
+; After calling the search procedure, the main procedure retrieves the result from EAX and exits the program.
+
 .386
 .model flat, stdcall
 .stack 4096
